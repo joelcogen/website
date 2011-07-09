@@ -1,0 +1,97 @@
+/* Global styles */
+* {padding: 0; margin: 0;}
+#wrapper {width: 1000px; margin: 0 auto; overflow: hidden;}
+body {background: url('bg.png') repeat-y center top;}
+.grey {color: #646F77;}
+.blue {color: #0090B4;}
+
+/* Header */
+#header
+	{width: 390px; float: left; clear: none; text-align: right; padding-right: 10px; position: fixed;
+	 font-family: 'Cuprum', 'Helvetica Neue', 'Helvetica', 'Verdana', sans;}
+#title
+	{height: 100px; overflow: hidden; padding-top: 20px;}
+h1 {color: #000; font-size: 36px; font-weight: normal; line-height: 26px;}
+h1.nowebfont, h1 .nowebfont {font-size: 30px;}
+h1 #cogen {color: #0090B4;}
+h2 {color: #646F77; font-size: 18px; font-weight: normal; margin-top: 14px;}
+h2.nowebfont {font-size: 14px;}
+#closer {display: none; width: 180px; padding: 10px;}
+
+/* Content block */
+h3
+	{color: #646F77; font-size: 24px; font-weight: normal; padding-bottom: 10px;
+	 font-family: 'Cuprum', 'Helvetica Neue', 'Helvetica', 'Verdana', sans;}
+h3.nowebfont, h3.ie8 {font-size: 20px;}
+h3.ie8 {font-family: 'Verdana', sans;}
+#content
+	{width: 598px; float: left; clear: none; overflow: hidden; margin-left: 202px;
+	 font-family:'Verdana', sans; font-size: 12px; text-align: justify;}
+#content .page
+	{width: 560px; padding: 20px; padding-top: 2px; display: none; line-height: 20px; margin-top: 120px;}
+#content .page p
+	{margin-bottom: 8px;}
+#content .current
+	{display: block;}
+#content .mask {height: 120px; width: 597px; position: fixed; z-index: 1;}
+#content #mask_top {background: url('bg_mask_top.png') repeat-x top left; display: none;}
+#content #mask_bottom {background: url('bg_mask_bottom.png') repeat-x top left; height: 240px; top: 607px;}
+#content #mask_bottom2 {background: #fff; height: 100%; top: 847px;}
+
+#tagline
+	{color: #646F77; font-size: 14px; text-align: center !important; padding-top: 300px !important; padding-left: 140px !important;
+	 width: 200px !important; margin: 0 auto !important; height: 100px !important;
+	 font-family: 'Cuprum', 'Helvetica Neue', 'Helvetica', 'Verdana', sans;}
+#tagline.ie8 {font-family: 'Verdana', sans; font-size: 12px;}
+#tagline .quote {font-size: 20px; font-style: italic;}
+.huge {color: #0090B4; font-size: 20px;}
+.big {color: #333; font-size: 16px;}
+
+/* Links */
+a {text-decoration: none; color: #0090B4;}
+a img {border: 0;}
+a:hover img {opacity: 0.6;}
+
+/* Menu */
+#menu
+	{width: 190px; font-size: 21px; float: left; clear: none; margin-top: 120px; margin-left: 630px; position: fixed;
+	 font-family: 'Cuprum', 'Helvetica Neue', 'Helvetica', 'Verdana', sans;}
+#menu.nowebfont {font-size: 16px;}
+#menu ul {height: 405px;}
+#menu li
+	{margin: 0; padding: 0; list-style-type: none;}
+#menu li a
+	{border-left: 0px solid #646F77; line-height: 120%; padding: 0 0 0 15px; display: block;}
+#menu li a:hover 
+	{border-left: 2px solid #0090B4; color: #000;}
+#menu li a.current
+	{border-left: 2px solid #0090B4; color: #000;}
+
+/* After menu */
+#contact {padding-left: 15px; padding-top: 10px; font-size: 16px; line-height: 22px; height: 44px;}
+#contact.nowebfont {font-size: 14px;}
+
+#social {padding-left: 15px; height: 32px;}
+#social img
+	{width: 32px; height: 32px; border: 0;}
+
+#html5 {position: fixed; bottom: 0; right: 0; height: 0; overflow: hidden; margin-top: 350px}
+
+/* Profile */
+h4 {color: #0090B4;}
+h4 a {background: url('images/link.png') top right no-repeat; padding-right: 15px;}
+table {border: 0;}
+td {vertical-align: top; padding-bottom: 10px;}
+td.date {width: 70px; color: #646F77; text-align: right; padding-right: 20px;}
+#profile ul {padding-left: 20px;}
+#cv {position: absolute; width: 570px; text-align: right;}
+
+/* Projects */
+.project {float: left; clear: none; width: 220px; height: 260px; margin: 0 25px;}
+.project img {width: 220px; height: 157px;}
+.project .languages {font-style: italic; color: #646F77;}
+.project_data strong {font-weight: normal; color: #646F77;}
+
+#tchoo
+	{z-index: 5; position: fixed; bottom: 0; left: 0; height: 270px; width: 15px;
+	 background: url('train.png') no-repeat top right;}
